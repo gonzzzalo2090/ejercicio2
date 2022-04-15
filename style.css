@@ -1,0 +1,40 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 100%;   
+}
+
+/*****************navegacion***********/
+
+.header__navegacion {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(109, 97, 97);
+}
+
+.header__barra {
+    margin-top: 6rem;
+}
+
+.header__barra a{
+    margin-left: 5rem;
+    color: rgb(133, 137, 139);
+    text-decoration: none;
+}
+
+.header__imagen {
+    height: 12rem;
+}
+
